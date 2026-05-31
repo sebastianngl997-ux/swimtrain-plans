@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trainingsplan · Finja Heil · KW 22</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, 'Segoe UI', Arial, sans-serif;
+           font-size: 15px; background: #f4f6fb; color: #222; }
+    header { background: #1a56cc; color: #fff; padding: 14px 16px; }
+    header h1 { font-size: 20px; margin-bottom: 6px; }
+    nav { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    nav a { color: #aad4ff; text-decoration: none; font-size: 14px; }
+    nav a:hover { color: #fff; }
+    .week-label { font-size: 14px; opacity: .85; }
+    .dl-btn { margin-left: auto; background: rgba(255,255,255,.18);
+              border: 1px solid rgba(255,255,255,.4); color: #fff;
+              padding: 5px 12px; border-radius: 6px; cursor: pointer;
+              font-size: 13px; text-decoration: none; }
+    .dl-btn:hover { background: rgba(255,255,255,.28); }
+    main { padding: 12px 12px 32px; max-width: 640px; margin: 0 auto; }
+    .day { margin-bottom: 14px; }
+    .day-hdr { font-size: 14px; font-weight: bold; color: #555;
+               padding: 6px 0 4px; border-bottom: 1px solid #dde3f0; margin-bottom: 6px; }
+    .card { background: #fff; border-radius: 8px; padding: 10px 12px;
+            margin-bottom: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+    .badge { display: inline-block; font-size: 11px; font-weight: bold;
+             color: #fff; padding: 2px 8px; border-radius: 10px;
+             margin-bottom: 4px; }
+    .card-name { font-weight: bold; font-size: 16px; margin: 2px 0; }
+    .card-meta { color: #777; font-size: 13px; margin-bottom: 8px; }
+    .btn-print { display: inline-block; background: #1a56cc; color: #fff;
+                 padding: 6px 14px; border-radius: 6px; text-decoration: none;
+                 font-size: 13px; }
+    .btn-print:hover { background: #1040aa; }
+    .empty { color: #bbb; font-style: italic; padding: 4px 0; font-size: 13px; }
+    @media print { header nav { display: none; } .btn-print { display: none; } }
+    </style>
+</head>
+<body>
+<header>
+  <h1>🏆 Finja Heil</h1>
+  <nav>
+    <a href="/athlete/b79af856-d9f8-45b4-b19d-a2f020f47526/week?date=2026-05-18">← zurück</a>
+    <span class="week-label">KW 22 &nbsp;·&nbsp; 25. Mai – 31. Mai 2026</span>
+    <a href="/athlete/b79af856-d9f8-45b4-b19d-a2f020f47526/week?date=2026-06-01">weiter →</a>
+    <a class="dl-btn" onclick="window.print();return false;" href="#">⬇ Drucken / PDF</a>
+  </nav>
+</header>
+<main>
+
+        <section class="day">
+          <h2 class="day-hdr">Montag, 25. Mai</h2>
+          <p class="empty">–</p>
+        </section>
+        <section class="day">
+          <h2 class="day-hdr">Dienstag, 26. Mai</h2>
+          <p class="empty">–</p>
+        </section>
+        <section class="day">
+          <h2 class="day-hdr">Mittwoch, 27. Mai</h2>
+          <p class="empty">–</p>
+        </section>
+        <section class="day">
+          <h2 class="day-hdr">Donnerstag, 28. Mai</h2>
+          <p class="empty">–</p>
+        </section>
+        <section class="day">
+          <h2 class="day-hdr">Freitag, 29. Mai</h2>
+          <p class="empty">–</p>
+        </section>
+        <section class="day">
+          <h2 class="day-hdr">Samstag, 30. Mai</h2>
+          
+            <div class="card" style="border-left:4px solid #0066cc;">
+              <div class="badge" style="background:#0066cc;">Schwimmen</div>
+              <div class="card-name">400er Gebrochen</div>
+              <div class="card-meta">5.2 km · 2h 00min</div>
+              <a class="btn-print" href="/api/plan/b665b717-f730-4dcf-a194-1c1c094d3f61/print" target="_blank">📄 Druckansicht</a>
+            </div>
+        </section>
+        <section class="day">
+          <h2 class="day-hdr">Sonntag, 31. Mai</h2>
+          <p class="empty">–</p>
+        </section>
+</main>
+</body>
+</html>
